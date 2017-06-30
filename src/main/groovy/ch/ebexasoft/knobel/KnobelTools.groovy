@@ -65,7 +65,6 @@ class KnobelTools {
    * @param elements  the list
    */
   public static Closure printList = { List elements ->
-    println ""
     elements.each {
         println it
     }
